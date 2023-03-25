@@ -1,0 +1,23 @@
+{
+  "name": "graphql_apollo",
+  "version": "1.0.0",
+  "description": "Sample CRUD application using graphql, apollo, mongodb",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
